@@ -1,1 +1,53 @@
+/* CSS reset, don't mind it for now. */
+* {
+    margin: 5px;
+    padding: 5px;
+}
 
+#container {
+    height: 600px;
+    width: 950px;
+    background-color: silver;
+    margin: 0 auto;
+}
+
+#header {
+    height: 150px;
+    background-color: blue;
+}
+
+#nav_bar {
+    height: 320px;
+    width: 180px;
+    background-color: red;
+  
+}
+
+
+#main_content {
+    height: 400px;
+    width: 700px;
+    background-color: yellow;
+    margin-top: -330px;
+    margin-left: 220px;
+}
+
+.subcontent {
+    height: 200px;
+    width: 200px;
+    margin-left: 0px;
+    margin: 15px;
+    background-color: purple;
+    display: inline-block;
+  
+    
+    
+    
+}
+
+#advertisements {
+    height: 90px;
+    width: 670px;
+    background-color: pink;
+    margin-top: -205px;
+}
