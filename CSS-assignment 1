@@ -32,13 +32,16 @@
     margin-left: 220px;
 }
 
+
+
 .subcontent {
     height: 200px;
-    width: 200px;
+    width: 190px;
     margin-left: 0px;
-    margin: 15px;
+    margin: 10px;
     background-color: purple;
     display: inline-block;
+  
   
     
     
@@ -46,8 +49,9 @@
 }
 
 #advertisements {
-    height: 90px;
-    width: 670px;
+    height: 140px;
+    width: 640px;
     background-color: pink;
-    margin-top: -205px;
+    margin-top: 0px;
+    margin-left: 10px;
 }
