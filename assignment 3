@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>My Simple Web Page</title>
+</head>
+<body>
+    <header>
+        <h1>beginner cat website</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <h2>Welcome</h2>
+            <p>Sheezy fo. Suspendisse potenti. Maecenizzle go to hizzle. Gangster elit ante, ullamcorper quizzle, hizzle izzle, scelerisque check out this, leo. Morbi eget boom shackalack. Fo shizzle fizzle. nonummy, nisl vitae funky fresh shut the shizzle up, libero mi cool felizzle, fizzle laorizzle i'm in the shizzle enim brizzle augue. I'm in the shizzle consequat fo shizzle my nizzle crocodizzle owned. Fusce bow wow wow dolizzle nizzle bizzle. Cras placerizzle, own yo' vizzle cool stuff, lorem pizzle bling bling tortizzle, eu luctizzle gangsta est owned its fo rizzle..</p>
+            <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="cat"></a>
+        </section>
+        <section id="section2">
+            <h2>Section 2</h2>
+            
+            <table>
+              
+          <thead>
+            <tr>
+              <th>fun fact 1:</th>
+              <td>Did you know that orange cats are almost exclusively male.</td>
+            </tr>
+          </thead>
+            <tbody>
+            </tr>
+              <th>fun fact 2:</th>
+              <td>orange cats are known to be hyperactive</td>
+            </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="section3">
+            <h2>Section 3</h2>
+            <p>what kind of cats do you like?</p>
+             
+          <label><input id="orange" type="radio" name="orange" value="orange"> orange</label>
+            <label><input id="other" type="radio" name="other" value="other"> other </label>
+          
+        </section>
+    </main>
+</body>
+</html>
