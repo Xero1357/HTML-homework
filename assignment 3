@@ -42,11 +42,16 @@
         </section>
         <section id="section3">
             <h2>Section 3</h2>
+            <div>
             <p>what kind of cats do you like?</p>
              
-          <label><input id="orange" type="radio" name="orange" value="orange"> orange</label>
+            <label><input id="orange" type="radio" name="orange" value="orange"> orange</label>
             <label><input id="other" type="radio" name="other" value="other"> other </label>
-          
+            </div>
+            <div>
+            <label><input type="text" name="name" placeholder="can you share a fun fact?" required></label>
+            </div>
+          <button type="submit">Submit</button>
         </section>
     </main>
 </body>
