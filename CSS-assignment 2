@@ -15,6 +15,7 @@
             width: 950px;
             background-color: white;
             margin: 0 auto;
+          
         }
 
         #header {
@@ -38,14 +39,35 @@
         }
 
         .subcontent {
-            height: 100px;
-            width: 293px;
+            float: left;
+            height: 85px;
+            width: 290px;
             margin-left: 35px;
             margin: 4px;
             background-color: cyan;
             display: inline-block; 
              line-height: 0.5; 
+            text-align: center;
+           /*box-sizing: border-box;   */
+          
 
+        }
+    .subcontent button {
+    font-size: 12px; /* Make the buttons smaller */
+    padding: 5px; /* Adjust padding for buttons */
+    margin: 0 auto;
+      
+        }      
+    input[type="text"] {
+    font-size: 8px; /* Make the input text smaller */
+    padding: 5px; /* Adjust padding for input */
+          }
+      .subcontent p {
+    font-size: 15px; /* Make the text smaller */
+}
+      
+       #content1 p, #content2 p, #content3 p {
+        margin: 0 auto;
         }
 
         #content1 {
@@ -59,6 +81,7 @@
 
         #content3 {
             width: 350px; 
+            text-align: center; 
   
         }
 
@@ -72,13 +95,16 @@
         footer {
             text-align: center; 
             position: relative; 
-            padding: 10px; 
+            padding: 10px;
+
         }
 
         .form-container {
             display: flex;
             justify-content: center; 
             margin-top: -30px;
+          
+            
 
         }
            #form1 {
@@ -142,6 +168,8 @@
                 <p>Linux search</p>
                 <p>&nbsp;</p>
       </div>
+     
+        
         <div class="subcontent" id="content2">
                 <p>Help</p>
                 <p>About Google!</p>
@@ -154,8 +182,13 @@
           <form>
           <input type="text" name="empty" placeholder=" "id="form4" required> 
           <div style="display: flex; align-items: center;">
-          <button type="submit" id="form5" >Subscribe</button> <p>Archive</p>
+            
+          <button type="submit" id="form5" >Subscribe</button> 
+          <p>Archive</p>
+            
            </div>
+            
+            
         </form> </div>
         <footer>
             Copyright &copy; 1998 Google Inc. All Rights Reserved.
