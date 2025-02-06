@@ -6,6 +6,11 @@
     <title>Image Example</title> 
 <style>
   
+*{
+ margin: 0px;
+ padding: 0px;
+  }
+  
 .class1{
 height: 90px;
 width: 950px;
@@ -20,6 +25,7 @@ background-color: cyan;
 margin: 1px;
 float: left;
 text-align: center;
+
   
 font-size: 11px;
 }
@@ -39,7 +45,7 @@ text-align: center;
 </div>
 <div class="class1" >
   <div>
-    <p style="margin: 0; ">Search the web using Google!</p>
+    <p  style="padding-top: 5px;  ">Search the web using Google!</p>
   </div>
   <div >
     <form>
@@ -54,14 +60,14 @@ text-align: center;
 
 <div>
   <div class="class2">
-      <p>
+      <p  style="padding-top: 5px;  ">
          Special Searches<br>
          Stanford Search<br>
          Linux Search<br>
       </p>
   </div>
   <div class="class2"  >
-       <p>
+       <p  style="padding-top: 5px;  ">
          Help<br>
          About Google!<br>
          Company info<br>
@@ -69,12 +75,12 @@ text-align: center;
        </p>
   </div>
   <div class="class2">
-      <div>
+      <div  style="padding-top: 5px;  ">
       <p>
       Get google!<br>
       updates monthly:
       </p>
-      </div>
+      </div >
       <div>
       <input type="text" name="empty" placeholder="your e-mail" id=" " required>
       </div>
