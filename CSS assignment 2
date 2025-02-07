@@ -9,30 +9,40 @@
 *{
  margin: 0px;
  padding: 0px;
+ 
+  }
+  
+  html{
+height: 90px;
+width: 1071px;
   }
   
 .class1{
 height: 90px;
-width: 950px;
+width: 100%;
 background-color: silver; 
 place-items: center;
 }
-  
+
 .class2{
 height: 80px;
-width: 310px;
+width:33%;
 background-color: cyan; 
 margin: 1px;
-float: left;
+display: inline-block;
 text-align: center;
 
   
 font-size: 11px;
-}
-  
+  }
+  .links{
+    display:flex
+  }
 .class3{
 text-align: center;
 }
+  
+  
   
 </style>
 </head>
@@ -58,7 +68,7 @@ text-align: center;
   </div>
 </div>
 
-<div>
+<div class='links'>
   <div class="class2">
       <p  style="padding-top: 5px;  ">
          Special Searches<br>
@@ -95,8 +105,3 @@ text-align: center;
 
 </body>
 </html>
-
-
-
-
-
