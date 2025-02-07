@@ -27,6 +27,9 @@
         display: block;
         margin: 0 auto;
         text-align: center;
+        width: 0 auto;
+        height: 40px;
+         
                           } 
     
  .class4 {
@@ -51,8 +54,8 @@
   
     <div class="class1">
       <button class="class1" type="submit">
-      <img src="https://imgur.com/bfUagqa.jpg" alt="A description of the PNG image" style="width: auto; height: 15px;">
-      Sign in with Apple
+      <img src="https://imgur.com/bfUagqa.jpg"  alt="A description of the PNG image" style="width: auto; height: 15px;">
+      <strong>Sign in with Apple</strong>
       </button>
     </div>
   
@@ -64,19 +67,19 @@
       <div style="flex: 1; height: 1px; background-color: #000;"></div>
     </div>
   
-    <input class="class2 class4" type="text" name="empty" placeholder="Phone, email or username"id="form1" required>
+    <input style= "margin-top: 10px;" class="class2 class4" type="text" name="empty" placeholder="Phone, email or username"id="form1" required>
   
     <div class="class1 class4">
       <button class="class1" type="submit" 
       style="background-color: black; color: white;"  >
-      Next
+        <strong>Next</strong>
       </button> 
     </div>
               
   
     <div>
       <button class="class1 class4" type="submit">
-      Forgot Password?
+      <strong>Forgot Password?</strong>
       </button>
     </div>
     <p class="class2">Don't have an account? Sign up</p>
