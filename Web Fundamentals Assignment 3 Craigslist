@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Example</title> 
+<style> 
+  
+*{
+    margin:0px;
+    padding:0px;
+    /* border: 1px solid black; */
+}
+  
+.container{
+width: 1000px;
+height: 500px; 
+  
+display: flex;
+flex-wrap: wrap;
+  
+align-items: baseline;
+text-align: center;
+}  
+ 
+.box{
+/* border: 1px solid; */
+outline: 3px solid;
+font-size: 5em;
+width: 25%;
+height: 250px;
+
+}  
+  
+#box1{
+ background-color: rgb(181, 50, 50);
+ width: 100%;
+ height: 100px; 
+} 
+#box2{
+ background-color: green;
+ height: 100%;
+/* position: relative; */
+
+} 
+#box3 {
+    /* margin-left: 10px; */
+    background-color: blue;
+     height: 100%;
+} 
+#box4 {
+    /* margin-left: 10px; */
+    background-color: purple;
+     height: 100%;
+} 
+#box5 {
+    /* margin-left: 10px; */
+    background-color: orange;
+     height: 100%;
+} 
+  
+#package1 {
+  /* width: 300px;
+  height: 300px; */
+  position: absolute;
+  top: 200px;
+  left: 20px;
+    width: 150px;
+  background-color: silver;
+}  
+#package2 {
+  /* width: 300px;
+  height: 300px; */
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  width: 150px;
+  background-color: silver;
+}  
+</style>
+</head>
+<body>
+  
+<div class="container">
+  <div class="box" id="box1">1</div>
+  <div class="box" id="box2">2</div>
+    <div class="box" id="package1">2
+    </div>
+
+  <div class="box" id="box3">3</div>
+    <div class="box" id="package2">2
+    </div>
+  <div class="box" id="box4">4</div>
+  <div class="box" id="box5">5</div>
+</div> 
+  
+<!--   <div class="box" id="box3">3</div>
+  <div class="box" id="box4">4</div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas minus atque earum accusamus illum explicabo placeat, error natus dolores ea quasi alias, facilis enim rem facere, dignissimos laboriosam assumenda cupiditate!</p>
+   -->
+  
+<h1><a href= " ">craigslist</a>&nbsp;&nbsp;&nbsp;san fransisco bay area</h1>
+
+
+
+
+  
+  
+</body>
+</html>
