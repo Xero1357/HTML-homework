@@ -17,14 +17,13 @@ background-color: silver;
 width: 1000px;
 height: 500px; 
  
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 
-gap: 1em;
-justify-content: center; 
-  
-align-items: baseline;
-text-align: center;
+  gap-collumn: 3em;
+  justify-content: center; 
+    text-align: center;
+  /* align-items: baseline; */
 }  
  
 .box{
@@ -83,6 +82,7 @@ font-size: 22px;
 padding-top: 15px;
 column-gap: 1em;
 line-height: 1.5em;
+font-size: 1.1em;
 } 
 .box1box1 {
 padding-top: 11px;
@@ -104,16 +104,20 @@ font-weight: bold;
   <div class="box" id="box1"><p></p>
     <div class="box1box1">
       <p><a HREF="">craigslist</a></p>
-      <p>san fransisco bay area</p>
+      <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp san fransisco bay area</p>
       
     </div>
   </div>
-  
-  <div class="box" id="box2"><p></p>
+    
+<div class="box" id="box2"><p></p>
+    
+<div>    
     <div class="subbox1">
       <p><a HREF="">help?</a></p>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;<a HREF="">post a listing</a></p>
     </div>
+</div>    
+
     <div class="subbox1">
       <p><a HREF="">FAQ</a></p>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;<a HREF="">subscriptions</a></p> 
@@ -131,7 +135,10 @@ font-weight: bold;
       <p><a HREF="">questions@craigslist.org</a></p>
       <p>updated 14 June 2000</p>
     </div>
-  </div>
+  
+  
+</div>
+  
   
   <div class="box" id="box3"><p>3</p>
   </div>
