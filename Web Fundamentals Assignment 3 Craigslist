@@ -13,22 +13,27 @@
 }
   
 .container{
+background-color: silver;
 width: 1000px;
 height: 500px; 
-  
+ 
 display: flex;
 flex-wrap: wrap;
+
+gap: 1em;
+justify-content: center; 
   
 align-items: baseline;
 text-align: center;
 }  
  
 .box{
-/* border: 1px solid; */
+border: 1px solid;
 outline: 3px solid;
-font-size: 5em;
-width: 25%;
+/* font-size: 5em; */
+width: 23%; /* 25% normally */
 height: 250px;
+
 
 }  
   
@@ -36,75 +41,109 @@ height: 250px;
  background-color: rgb(181, 50, 50);
  width: 100%;
  height: 100px; 
+  
 } 
 #box2{
  background-color: green;
- height: 100%;
+ height: 375px;
 /* position: relative; */
+  
+  
 
 } 
 #box3 {
     /* margin-left: 10px; */
     background-color: blue;
-     height: 100%;
+     height: 375px /* 100% */;
 } 
 #box4 {
     /* margin-left: 10px; */
     background-color: purple;
-     height: 100%;
+     height: 375px;
 } 
 #box5 {
     /* margin-left: 10px; */
     background-color: orange;
-     height: 100%;
+     height: 375px;
 } 
+.subbox1 {
+    /* margin-left: 10px; */
+    font-size: 1.3em;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding-top: 10px;
+}  
+.subbox2 {
+padding-top: 25px;
+font-size: 22px;
+
+} 
+.subbox3 {
+padding-top: 15px;
+column-gap: 1em;
+line-height: 1.5em;
+} 
+.box1box1 {
+padding-top: 11px;
+padding-left: 15px;
+font-size: 22px;
+column-gap: 1em;
+line-height: 1.5em;
+display: flex;
+font-weight: bold;
   
-#package1 {
-  /* width: 300px;
-  height: 300px; */
-  position: absolute;
-  top: 200px;
-  left: 20px;
-    width: 150px;
-  background-color: silver;
-}  
-#package2 {
-  /* width: 300px;
-  height: 300px; */
-  position: absolute;
-  top: 200px;
-  left: 300px;
-  width: 150px;
-  background-color: silver;
-}  
-</style>
+}   
+ 
+  </style> 
 </head>
 <body>
   
 <div class="container">
-  <div class="box" id="box1">1</div>
-  <div class="box" id="box2">2</div>
-    <div class="box" id="package1">2
-    </div>
 
-  <div class="box" id="box3">3</div>
-    <div class="box" id="package2">2
+  <div class="box" id="box1"><p></p>
+    <div class="box1box1">
+      <p><a HREF="">craigslist</a></p>
+      <p>san fransisco bay area</p>
+      
     </div>
-  <div class="box" id="box4">4</div>
-  <div class="box" id="box5">5</div>
+  </div>
+  
+  <div class="box" id="box2"><p></p>
+    <div class="subbox1">
+      <p><a HREF="">help?</a></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;<a HREF="">post a listing</a></p>
+    </div>
+    <div class="subbox1">
+      <p><a HREF="">FAQ</a></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;<a HREF="">subscriptions</a></p> 
+    </div>
+    <div class="subbox2">
+      <p><strong>search craigslist</strong></p>
+      <form><input type="text" placeholder=" "></form>
+      <form><input type="text" placeholder="community"></form>
+      <form><input style="width: 6.5em" type="text" placeholder="search"></form>  
+    </div>
+    <div class="subbox3">
+      <p><a HREF="">feedback</a></p>
+      <p><a HREF="">our policies</a></p>
+      <p><a HREF="">about craigslist</a></p>
+      <p><a HREF="">questions@craigslist.org</a></p>
+      <p>updated 14 June 2000</p>
+    </div>
+  </div>
+  
+  <div class="box" id="box3"><p>3</p>
+  </div>
+  
+  <div class="box" id="box4"><p>4</p>
+  </div>
+  
+  <div class="box" id="box5"><p>5</p>
+  </div>
 </div> 
-  
-<!--   <div class="box" id="box3">3</div>
-  <div class="box" id="box4">4</div>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas minus atque earum accusamus illum explicabo placeat, error natus dolores ea quasi alias, facilis enim rem facere, dignissimos laboriosam assumenda cupiditate!</p>
-   -->
-  
-<h1><a href= " ">craigslist</a>&nbsp;&nbsp;&nbsp;san fransisco bay area</h1>
-
-
-
-
+</div>
   
   
 </body>
-</html>
+</html> 
