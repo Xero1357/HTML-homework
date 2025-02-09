@@ -15,20 +15,20 @@
 .container{
 background-color: silver;
 width: 1000px;
-height: 500px; 
- 
+height: 700px; 
+ align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
 
-  gap-collumn: 3em;
-  justify-content: center; 
+  /* justify-content: center; */ 
     text-align: center;
   /* align-items: baseline; */
+/* align-items: flex-start; */
 }  
  
 .box{
-outline: 1px solid;
-outline: 3px solid;
+
+outline: 5px solid white;
 /* font-size: 5em; */
 width: 25%; /* 25% normally */
 height: 250px;
@@ -40,31 +40,12 @@ height: 250px;
  background-color: rgb(181, 50, 50);
  width: 100%;
  height: 100px; 
-  
-} 
-#box2{
- background-color: green;
- height: 375px;
-/* position: relative; */
-  
-  
 
+  
 } 
-#box3 {
-    /* margin-left: 10px; */
-    background-color: blue;
-     height: 375px /* 100% */;
-} 
-#box4 {
-    /* margin-left: 10px; */
-    background-color: purple;
-     height: 375px;
-} 
-#box5 {
-    /* margin-left: 10px; */
-    background-color: orange;
-     height: 375px;
-} 
+
+
+
 .subbox1 {
     /* margin-left: 10px; */
     font-size: 1.3em;
@@ -93,9 +74,21 @@ column-gap: 1em;
 line-height: 1.5em;
 display: flex;
 font-weight: bold;
-  
+  margin: 10px;
 }   
- 
+ .box2box1 {
+text-align: start;
+}  
+ .title {
+background-color: gray;
+} 
+ .class1 { 
+background-color: white;
+font-weight: bold;
+}
+.class1 p {
+background-color: #e0f7fa; /* Light blue background for each paragraph */ 
+margin-bottom: 1.5px;
   </style> 
 </head>
 <body>
@@ -106,19 +99,17 @@ font-weight: bold;
     <div class="box1box1">
       <p><a HREF="">craigslist</a></p>
       <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp san fransisco bay area</p>
-      
+      <input style= "text-align: top; text-align: right; margin-right: 10px;  width: 20%;" type="text" placeholder="other craigslists">
+      <input style= "text-align: top; text-align: right; margin-right: 10px;  width: 5%;" type="text" placeholder="go">
     </div>
   </div>
     
-<div class="box" id="box2"><p></p>
+<div class="box" id="box2">
     
-<div>    
     <div class="subbox1">
       <p><a HREF="">help?</a></p>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;<a HREF="">post a listing</a></p>
     </div>
-</div>    
-
     <div class="subbox1">
       <p><a HREF="">FAQ</a></p>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;<a HREF="">subscriptions</a></p> 
@@ -135,22 +126,101 @@ font-weight: bold;
       <p><a HREF="">about craigslist</a></p>
       <p><a HREF="">questions@craigslist.org</a></p>
       <p>updated 14 June 2000</p>
+    </div> 
     </div>
   
   
+  <div class="box" id="box3"><p></p>
+    <div class="box2box1">
+    <p class="title"><strong>community & events </strong> </p>
+      <div class = "class1">
+      <p><a HREF="">events / entertainment </a></p>
+      <p><a HREF="">tech events</a></p>
+      <p><a HREF="">classes / workshops </a></p>
+      <p><a HREF="">artists / musicians </a></p>
+      <p><a HREF="">community </a></p>    
+      <p><a HREF="">pets / animals </a></p>  
+      <p><a HREF="">volunteers </a></p>  
+      <p>review / recommend </p>  
+      </div>
+    </div>
+    
+  <div class="box2box1">
+    <p class="title"><strong>personals</strong> </p>
+    <div class = "class1">
+    <p>women for women </p>
+    <p>women for men </p>
+    <p>men for women </p>
+    <p>men for men </p>
+    <p>misc romance</p>
+    <p>activity partners</p>
+    <p>carpool rideshare</p>
+    <p>discussion boards</p>
+    </div>
+    </div>
+  </div>
+  
+<div class="box" id="box4"><p></p>
+  <div class="box2box1">
+    <p class="title"><strong>housing</strong></p>
+    <div class = "class1">
+    <p>apts / housing</p>
+    <p>apts / housing wanted</p>
+    <p>rooms / shared</p>
+    <p>rooms / shared wanted</p>
+    <p>sublets / temporary</p>
+    <p>office / commertcial</p>
+    <p>parking / storage</p>
+    </div>
+  </div>
+  <div class="box2box1">
+    <div class = "class1">
+    <p class="title"><strong>sale / wanted</strong></p>
+    <p>barter / swap / free</p>
+    <p>cars / trucks</p>
+    <p>computer / tech stuff</p>
+    <p>general for sale</p>
+    <p>items wanted</p>
+    <p>small biz ads</p>
+    <p>tickets</p>
+    <p>resumes</p>
+    <p>freelance services 1099</p>
+    </div>
+  </div>
 </div>
   
-  
-  <div class="box" id="box3"><p>3</p>
+  <div class="box" id="box5"><p></p>
+    <div class="box2box1">
+    <p class="title"><strong>jobs</strong></p>
+    <div class = "class1">
+    <p>accounting / finance</p>
+    <p>admin / customer service</p>
+    <p>architect / engineer / CAD</p>
+    <p>arts / print / design</p>
+    <p>business / e-biz / mgmt</p>
+    <p>human resources</p>
+    <p>internet/web engineering</p>
+    <p>legal / paralegal</p>
+    <p>marketing / advertising</p>
+    <p>medical / health / biotech</p>
+    <p>network / telecomm</p>
+    <p>nonprofit sector</p>
+    <p>retail / hospitaly / food</p>
+    <p>sales / biz dev</p>
+    <p>software /QA / DBA / etc</p>
+    <p>system administration</p>
+    <p>technical support</p>
+    <p>tv / film / video / radio</p>
+    <p>web / info design</p>
+    <p>writing / editing</p>
+    <p>et cetera</p>
+    </div>
   </div>
-  
-  <div class="box" id="box4"><p>4</p>
-  </div>
-  
-  <div class="box" id="box5"><p>5</p>
   </div>
 </div> 
 </div>
+  
+
   
   
 </body>
