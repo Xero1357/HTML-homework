@@ -4,105 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Example</title> 
-<style>
+
   
-*{
-margin: 0px; 
-padding: 0px; 
-margin-left: 20px;
-}
- 
-html{
-width:1000px;
-}
-  
-.class{
-display: inline-block;
-}
- 
-  
-</style>
 </head>
 <body>
   
-  <h1>Airbed & Breakfast - Find a place to stay.</h1>
-  
-
-  <ul>
+  <div style= "box2">
+    
+    <h1>Airbed & Breakfast - Find a place to stay.</h1>
+    <ul>
     <li><a href = " "><strong>Sign up</strong></a></li>
     <li><a href = " "><strong>Sign in</strong></a></li>
-  </ul>
+    </ul> 
+    <p" >this listing is no longer available</p>  
+    <hr>
+       
+  </div>
   
-  <p" >this listing is no longer available</p>
-  <hr>
-  <h2>Find a place to stay.</h2>
-  
-  <p><a href="https://www.example.com">Rent nightly from real poeple in 830 cities in 73 countries.</a></p>
-  
-  <div>
-     <input type="text" placeholder="where are you going?"> 
-     </div>
-                                                          
-    <div>
-    <p>check in:</p>
-    <input type="text" placeholder="mm/dd/yyyy">  
-    </div>
-                                               
-    <div>
-    <p>check out:</p>
-    <input type="text" placeholder="mm/dd/yyyy">   
-    </div>
-                                               
-    <div style= "width: 50%;">
-    <p>Guests</p>
-    <input type="text"> 
-    </div> 
+  <div class= "class1">
+       
+    <div class="class4 box1">               
+      <h2>Find a place to stay.</h2> 
+      <input type="text" placeholder="where are you going?"> 
+      <p>check in:</p>
+      <input type="text" placeholder="mm/dd/yyyy">                                         
+      <p>check out:</p>
+      <input type="text" placeholder="mm/dd/yyyy">   
+      <p>Guests</p>
+      <input style= "width: 25%;" type="text">
+    </div>                  
                       
-    
-  </div>
+    <img src="https://imgur.com/OLqPcKW.jpg">  
+  
+                                            
+    <div class="class2">                                             
+    <img src="https://imgur.com/LpJBucc.jpg">
+    <img src="https://imgur.com/SazzHob.jpg">
+    <img src="https://imgur.com/G2EbyoA.jpg">  
+    </div>  
+                                            
+         
+     <div style="display: flex; flex-direction: column;">                                             
+     <img src="https://imgur.com/u0HdAZI.jpg"> 
+    </div>  
+                                            
                    
-  <div style= "width: 100%; height: 100px;  background-color: red;">
-  <img style="width: 15%; display: flex; align-items: center;" src="https://imgur.com/wTLgtMV.jpg">                                                                
+  </div>   
+                      
   </div>
-                                                                  
-  <div style= "width: 100%; height: 50px;  background-color: blue;">
-    <img style="width: 0 auto; height: 35px display: block; " src="https://imgur.com/RWEmXOb.jpg"> 
-  </div>
-                                                                                         
-            
-  <ul>
-    <li><a href = " ">About</a></li>
-    <li><a href = " ">FAQ</a></li>
-    <li><a href = " ">Contact</a></li>
-    <li><a href = " ">Terms & Privacy</a></li>
-    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biggest deals:<a href = " ">New York</a></li>
-    <li><a href = " ">San Fransisco</a></li>
-    <li><a href = " ">Paris</a></li>
-    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Join us on:<a href =" ">Twitter</a></li>
-    <li><a href = " ">San Fransisco</a></li>
-    <li><a href = " ">Facebook</a></li>
-  </ul>
-
-                     
-  <footer>&copy; Airbed & Breakfast, Inc.</footer>
+    
+  <div>
  
+
+<img src="https://imgur.com/wTLgtMV.jpg">   
+<img src="https://imgur.com/RWEmXOb.jpg">
+
+                                                                                                        
+
+  
+  
+  
+  
 </body>
 </html>
-
-   <img src="https://imgur.com/OLqPcKW.jpg">                                                                                                          
-  <img src="https://imgur.com/LpJBucc.jpg">
-  <img src="https://imgur.com/SazzHob.jpg">
-  <img src="https://imgur.com/G2EbyoA.jpg">
-  <img src="https://imgur.com/u0HdAZI.jpg">
-
-                                       
-   
-
-
-
-
-
-
-
-
 
