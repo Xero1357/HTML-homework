@@ -9,21 +9,21 @@
 </head>
 <body>
   
-  <div style= "box2">
+  <div class = "box2">
     
     <h1>Airbed & Breakfast - Find a place to stay.</h1>
     <ul>
     <li><a href = " "><strong>Sign up</strong></a></li>
     <li><a href = " "><strong>Sign in</strong></a></li>
     </ul> 
-    <p" >this listing is no longer available</p>  
-    <hr>
-       
+    <p>this listing is no longer available</p>      
   </div>
+  
+  <hr>
   
   <div class= "class1">
        
-    <div class="class4 box1">               
+    <div class="class4 box1 box2">               
       <h2>Find a place to stay.</h2> 
       <p><a href="https://www.example.com">Rent nightly from real poeple in 830 cities in 73 countries.</a></p>
       <input type="text" placeholder="where are you going?"> 
@@ -36,8 +36,8 @@
     </div>                  
      
     <div class="box2 class2">                                         
-     <img style= "width: 15em;" src="https://imgur.com/OLqPcKW.jpg"> 
-     <img style= "width: 3em;"src="https://imgur.com/u0HdAZI.jpg">
+     <img style= "width: 18em;" src="https://imgur.com/OLqPcKW.jpg"> 
+     <img style= "width: 4em;"src="https://imgur.com/u0HdAZI.jpg">
     </div>
                                             
     <div class="class2 box2">                                             
@@ -58,11 +58,25 @@
     
   <div>
  
-
-<img src="https://imgur.com/wTLgtMV.jpg">   
-<img src="https://imgur.com/RWEmXOb.jpg">
-
-                                                                                                        
+  <div class="class4 box1 box2"> 
+  <img style= "width: 12em;" src="https://imgur.com/wTLgtMV.jpg">   
+  <img style= "width: 48em;" src="https://imgur.com/RWEmXOb.jpg">
+  </div> 
+                                          
+  <div class="box2">                                      
+  <ul>
+    <li><a href = " ">About</a></li>
+    <li><a href = " ">FAQ</a></li>
+    <li><a href = " ">Contact</a></li>
+    <li><a href = " ">Terms & Privacy</a></li>
+    <li>Biggest deals:&nbsp;&nbsp;&nbsp;<a href = " ">New York</a></li>
+    <li><a href = " ">San Fransisco</a></li>
+    <li><a href = " ">Paris</a></li>
+    <li>Join us on:&nbsp;&nbsp;&nbsp;<a href =" ">Twitter</a></li>
+    <li><a href = " ">San Fransisco</a></li>
+    <li><a href = " ">Facebook</a></li>
+  </ul>
+  </div>                                                                                                      
 
   
   
