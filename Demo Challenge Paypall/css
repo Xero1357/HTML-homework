@@ -1,0 +1,42 @@
+
+html{
+
+}
+
+.container{
+  background-color: silver;
+  width: 700px;
+  height: 700px;
+  
+}
+
+.informationtab1{
+display: flex;
+justify-content: flex-end; 
+  
+    align-items: flex-start;  /* Aligns items to the top */
+}
+
+.informationtab2{
+display: flex;
+justify-content: center;
+}
+
+
+.horizontal{
+display: flex;
+}
+
+.footerclass{
+justify-items: center;
+margin-bottom: 10px;
+}
+
+.insurance{ 
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+margin-top: auto;
+}
+
