@@ -1,11 +1,9 @@
 *{
 margin: 0px; 
 padding: 0px; 
-
 }
 
 .class1{
-
   display: flex;
 }
 
@@ -14,6 +12,7 @@ padding: 0px;
   flex-direction: column;
   width: 10em;   /* Image width will be 10 times the font size of the parent */
   height: auto;  /* Maintain aspect ratio */
+  margin: 1px;
 }
 
 .class3{
@@ -30,7 +29,7 @@ margin-top: 5em;
 }
 
 .box2{
-margin-left: 5em;
+margin-left: 3em;
   
 }
 
