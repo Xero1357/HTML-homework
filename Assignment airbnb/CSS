@@ -1,0 +1,39 @@
+*{
+margin: 0px; 
+padding: 0px; 
+}
+
+.class1{
+  display: flex;
+}
+
+.class2{
+  display: flex;
+  flex-direction: column;
+  width: 10em;   /* Image width will be 10 times the font size of the parent */
+  height: auto;  /* Maintain aspect ratio */
+  margin: 1px;
+}
+
+.class3{
+display: flex;
+}
+
+.class4{
+display: flex;
+flex-direction: column;
+}
+.box1{
+margin-top: 5em;
+
+}
+
+.box2{
+margin-left: 3em;
+  
+}
+
+
+img{
+margin: .25em; 
+}
