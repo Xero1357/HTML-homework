@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Example</title> 
+
+  
+</head>
+<body>
+  
+  <div class = "box2">
+    
+    <h1>Airbed & Breakfast - Find a place to stay.</h1>
+    <ul>
+    <li><a href = " "><strong>Sign up</strong></a></li>
+    <li><a href = " "><strong>Sign in</strong></a></li>
+    </ul> 
+    <p>this listing is no longer available</p>      
+  </div>
+  
+  <hr>
+  
+  <div class= "class1">
+       
+    <div class="class4 box1 box2">               
+      <h2>Find a place to stay.</h2> 
+      <p><a href="https://www.example.com">Rent nightly from real poeple in 830 cities in 73 countries.</a></p>
+      <input type="text" placeholder="where are you going?"> 
+      <p>check in:</p>
+      <input type="text" placeholder="mm/dd/yyyy">                                         
+      <p>check out:</p>
+      <input type="text" placeholder="mm/dd/yyyy">   
+      <p>Guests</p>
+      <input style= "width: 25%;" type="text">
+    </div>                  
+     
+    <div class="box2 class2">                                         
+     <img style= "width: 18em;" src="https://imgur.com/OLqPcKW.jpg"> 
+     <img style= "width: 4em;"src="https://imgur.com/u0HdAZI.jpg">
+    </div>
+                                            
+    <div class="class2 box2">                                             
+    <img src="https://imgur.com/LpJBucc.jpg">
+    <img src="https://imgur.com/SazzHob.jpg">
+    <img src="https://imgur.com/G2EbyoA.jpg">  
+    </div>  
+                                            
+         
+ <!--    <div style="display: flex; flex-direction: column;">                                             
+    <img src="https://imgur.com/u0HdAZI.jpg"> 
+    </div>   -->
+                                            
+                   
+  </div>   
+                      
+  </div>
+    
+  <div>
+ 
+  <div class="class4 box1 box2"> 
+  <img style= "width: 12em;" src="https://imgur.com/wTLgtMV.jpg">   
+  <img style= "width: 48em;" src="https://imgur.com/RWEmXOb.jpg">
+  </div> 
+                                          
+  <div class="box2">                                      
+  <ul>
+    <li><a href = " ">About</a></li>
+    <li><a href = " ">FAQ</a></li>
+    <li><a href = " ">Contact</a></li>
+    <li><a href = " ">Terms & Privacy</a></li>
+    <li>Biggest deals:&nbsp;&nbsp;&nbsp;<a href = " ">New York</a></li>
+    <li><a href = " ">San Fransisco</a></li>
+    <li><a href = " ">Paris</a></li>
+    <li>Join us on:&nbsp;&nbsp;&nbsp;<a href =" ">Twitter</a></li>
+    <li><a href = " ">San Fransisco</a></li>
+    <li><a href = " ">Facebook</a></li>
+  </ul>
+  </div>                                                                                                      
+
+  
+  
+  
+  
+</body>
+</html>
+
