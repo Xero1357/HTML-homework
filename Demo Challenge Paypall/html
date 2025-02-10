@@ -1,1 +1,168 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Example</title> 
+<style> 
+
+  
+  </style> 
+</head>
+<body>
+  
+<div class="container">
+
+  <div class="box" id="box1"><p></p>
+  <div class="box1box1">
+    
+      <div>
+      <p><a HREF="">craigslist</a></p>
+      </div>
+        
+      <div>
+      <p>san fransisco bay area</p>
+      </div>
+    
+      <div>
+      <input style= "text-align: top; text-align: right; margin-right: 10px;  width: 30%;" type="text" placeholder="other craigslists">
+      <input style= "text-align: top; text-align: right; margin-right: 10px;  width: 10%;" type="text" placeholder="go">
+      </div>  
+ 
+  </div>
+  </div>
+
+
+<div class="box" id="box2">
+    
+    <div class="subbox1">
+      <p><a HREF="">help?</a></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;<a HREF="">post a listing</a></p>
+    </div>
+    <div class="subbox1">
+      <p><a HREF="">FAQ</a></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;<a HREF="">subscriptions</a></p> 
+    </div>
+    <div class="subbox2">
+      <p><strong>search craigslist</strong></p>
+      <form><input type="text" placeholder=" "></form>
+      <form><input type="text" placeholder="community"></form>
+      <form><input style="width: 6.5em" type="text" placeholder="search"></form>  
+    </div>
+    <div class="subbox3">
+      <p><a HREF="">feedback</a></p>
+      <p><a HREF="">our policies</a></p>
+      <p><a HREF="">about craigslist</a></p>
+      <p><a HREF="">questions@craigslist.org</a></p>
+      <p>updated 14 June 2000</p>
+    </div> 
+    </div>
+  
+  
+  <div class="box" id="box3"><p></p>
+    
+    <div class="box2box1">
+      <p class="title"><strong>community & events </strong> </p>
+    <div class = "class1">
+      <p><a HREF="">events / entertainment </a></p>
+      <p><a HREF="">tech events</a></p>
+      <p><a HREF="">classes / workshops </a></p>
+      <p><a HREF="">artists / musicians </a></p>
+      <p><a HREF="">community </a></p>    
+      <p><a HREF="">pets / animals </a></p>  
+      <p><a HREF="">volunteers </a></p>  
+      <p>review / recommend </p>  
+    </div>
+    </div>
+    
+  <div class="box2box1">
+    <p class="title"><strong>personals</strong> </p>
+    <div class = "class1">
+    <p>women for women </p>
+    <p>women for men </p>
+    <p>men for women </p>
+    <p>men for men </p>
+    <p>misc romance</p>
+    <p>activity partners</p>
+    <p>carpool rideshare</p>
+    <p>discussion boards</p>
+    </div>
+    </div>
+  </div>
+  
+  <div class="box" id="box4"><p></p> 
+    <div class="box2box1">
+      
+    <p class="title"><strong>housing</strong></p>
+    <div class = "class1">
+    <p>apts / housing</p>
+    <p>apts / housing wanted</p>
+    <p>rooms / shared</p>
+    <p>rooms / shared wanted</p>
+    <p>sublets / temporary</p>
+    <p>office / commertcial</p>
+    <p>parking / storage</p>
+      
+    </div>
+  </div>
+  
+  <div class="box2box1" >
+    <p style="margin-top: 10px; " class="title"><strong>sale / wanted</strong></p>
+    <div class = "class1">
+    <p>barter / swap / free</p>
+    <p>cars / trucks</p>
+    <p>computer / tech stuff</p>
+    <p>general for sale</p>
+    <p>items wanted</p>
+    <p>small biz ads</p>
+    <p>tickets</p>
+    <p>resumes</p>
+    <p>freelance services 1099</p>
+    </div>
+    
+  </div>
+</div>
+  
+  
+   <div class="box box2box1 id="box5"><p></p>
+    <p class="title"><strong>jobs</strong></p>
+   <div class = "class1">
+    <p>accounting / finance</p>
+    <p>admin / customer service</p>
+    <p>architect / engineer / CAD</p>
+    <p>arts / print / design</p>
+    <p>business / e-biz / mgmt</p>
+    <p>human resources</p>
+    <p>internet/web engineering</p>
+    <p>legal / paralegal</p>
+    <p>marketing / advertising</p>
+    <p>medical / health / biotech</p>
+    <p>network / telecomm</p>
+    <p>nonprofit sector</p>
+    <p>retail / hospitaly / food</p>
+    <p>sales / biz dev</p>
+    <p>software /QA / DBA / etc</p>
+    <p>system administration</p>
+    <p>technical support</p>
+    <p>tv / film / video / radio</p>
+    <p>web / info design</p>
+    <p>writing / editing</p>
+    <p>et cetera</p>
+   </div>
+   </div>
+  
+</div> 
+</div>
+  
+
+  
+  
+</body>
+</html> 
+
+
+  
+  
+  
+  
