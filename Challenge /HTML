@@ -66,11 +66,15 @@
                   <div class="interfacetitle">
                     <p>Join LinkedIn Today</p>
                   </div>
+              
                   <div>
-                    <p>First Name: </p>
-                    <p>Last Name: </p>
-                    <p>E-mail: </p>
+                    <p>First Name: <input type="text" placeholder=" "> </p>
+                    <p>Last Name:<input type="text" placeholder=" "> </p>
+                    <p>E-mail:<input type="text" placeholder=" "> </p>
+                    <button>Continue</button>
                   </div>
+              
+                  <p>Already on LinkedIn? <a href="">Sign In</a></p>
                
             </div> 
    </div>
