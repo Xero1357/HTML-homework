@@ -63,6 +63,14 @@
    </div>
    <div class="grid grid2B">
             <div class="interface"> 
+                  <div class="interfacetitle">
+                    <p>Join LinkedIn Today</p>
+                  </div>
+                  <div>
+                    <p>First Name: </p>
+                    <p>Last Name: </p>
+                    <p>E-mail: </p>
+                  </div>
                
             </div> 
    </div>
