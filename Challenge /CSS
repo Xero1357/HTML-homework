@@ -111,11 +111,16 @@ margin: 20px;
 }
 
 .grid3{
+display: flex;  
 background-color: white;
 grid-row: 6/7;
 grid-column: 1/10;  
 margin-top: 40px;
   
+}
+.grid3 p{
+margin: 0px;
+padding: 0px; 
 }
 
 .grid3B{
@@ -173,9 +178,11 @@ align-items: center;
 .graytext{
 color: lightgray; 
 margin: 10px
+  
 }
 .bluetext{
 margin: 10px
+  
 }
 .footertext{
 font-size: 14px;
