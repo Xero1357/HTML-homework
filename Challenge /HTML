@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+      
+    </head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+  
+<div class="container">    
+   
+   <div class="grid grid1">
+             <div class="horizontal">
+     
+             <div class="Linkedin-image">
+             <img src="https://imgur.com/1ACrU4Y.jpg">  
+             </div>
+               
+             <div class="horizontal header-links">
+             <p><a href = " ">Home</a>&nbsp;|&nbsp;</p>
+             <p><a href = " ">What is linkedin?</a> &nbsp;|&nbsp;</p>
+             <p><a href = " ">Join today</a> &nbsp;|&nbsp;</p>
+             <p><a href = " ">Sign in</a></p> 
+             </div>
+
+             </div>  
+    
+     
+             <hr>
+     
+   </div>
+  
+  
+   <div class="grid grid2">
+            <div class="vertical">
+              
+            <h2>Over 24 million professionals use LinkedIn to exchange information, ideas and opportunities</h2>
+              
+              <div class="horizontal">
+              <img src="https://imgur.com/OKsI9aO.jpg">
+              <p>Stay informed about your contacts and industry</p>
+              </div> 
+              
+              <div class="horizontal">
+              <img src="https://imgur.com/mfo3Y1u.jpg">
+              <p>Find the poeple & knowledge you need to achieve your goals</p>
+              </div>
+              
+              <div class="horizontal">
+              <img src="https://imgur.com/4teh2G5.jpg">
+              <p>Control your professional identity online</p>
+              </div>
+              
+            </div> 
+   </div>
+   <div class="grid grid2B">
+            <div> 
+               
+            </div> 
+   </div>
+   <div class="grid grid2C">
+            <div> 
+               
+            </div> 
+   </div>
+  
+           
+   <div class="grid grid3">
+             <div class="horizontal">
+               
+             <p class="graytext">Company<br>Tools<br>Products</p>
+             <p class="bluetext">Customer service | About LinkedIn | Team | Blog | Store | Advertise with Us | Work with Us<br>Overview | Outlook Toolbar | Browser Toolbar | JobsInsider | Widgets<br>LinkedIn | Answers LinkedIn Jobs | LinkedIn Updates</p>
+             
+             </div>   
+   </div>
+  
+  <div class="grid3B">
+             <div class="footertext">
+               
+             <footer>LinkedIn Corporation &copy; 2008 | User Agreement | Privacy Policy | Copyright Policy </footer>
+             <footer>Use of this site is subject to express terms of use, which prohibit commercial use of this site. By continuing past this page, you agree to abide by there terms.</footer>      
+                 
+             </div>   
+   </div>
+  
+   
+ 
+</div>
+  
+</body>
+</html>
+
+<div>  
+
+</div> 
+
+ 
 
