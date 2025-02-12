@@ -33,13 +33,16 @@
 
              </div>  
      
-            <div class="hr-line-1">
+          <div class="hr-line-1">
             <hr>
-            </div> 
+            </div>   
 
        
      
    </div>
+
+  
+<div class = "grid2Border">
   
   
    <div class="grid grid2">
@@ -70,7 +73,7 @@
                     <p>Join LinkedIn Today</p>
                   </div>
               
-                  <div>
+                  <div class="interface-align">
                     <p>First Name: <input type="text" placeholder=" "> </p>
                     <p>Last Name:<input type="text" placeholder=" "> </p>
                     <p>E-mail:<input type="text" placeholder=" "> </p>
@@ -80,47 +83,49 @@
                   <p>Already on LinkedIn? <a href="">Sign In</a></p>
                
             </div>
-     
-     <hr>
-     
    </div>
+  
    <div class="grid grid2C">
             <div> 
               
               <div> 
-              <h3> Search for someone by name:<input type="text" placeholder="First Name"><input type="text" placeholder="Last Name"><button>Go</button> </h3>
+              <h3> Search for someone by name:&nbsp;&nbsp;<input type="text" placeholder="First Name">&nbsp;&nbsp;<input type="text" placeholder="Last Name">&nbsp;<button>Go</button> </h3>
               </div> 
               
-              <div>
+              <div class="graytext">
               <p> Poeple directory: <a href="">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z more</a></p>
               </div>
               
             </div> 
    </div>
-  
-            <div class="hr-line-2">
-            <hr>
-            </div>
+</div>  
+            
   
            
-   <div class="grid grid3">
+   <div class="grid3">
+     
+           <div class="hr-line-2">
+            <hr>
+            </div>
+     
              <div class="horizontal">
-               
-             <p class="graytext">Company<br>Tools<br>Products</p>
-             <p class="bluetext">Customer service | About LinkedIn | Team | Blog | Store | Advertise with Us | Work with Us<br>Overview | Outlook Toolbar | Browser Toolbar | JobsInsider | Widgets<br>LinkedIn | Answers LinkedIn Jobs | LinkedIn Updates</p>
-             
+                  <div>   
+                 <p class="graytext">Company<br>Tools<br>Products</p>
+                 </div>  
+                 <div>  
+                 <p class="bluetext">Customer service | About LinkedIn | Team | Blog | Store | Advertise with Us | Work with Us<br>Overview | Outlook Toolbar | Browser Toolbar | JobsInsider | Widgets<br>LinkedIn | Answers LinkedIn Jobs | LinkedIn Updates</p>
+                 </div>  
              </div>   
    </div>
   
   <div class="grid3B">
              <div class="footertext">
                
-             <footer>LinkedIn Corporation &copy; 2008 | User Agreement | Privacy Policy | Copyright Policy </footer>
-             <footer>Use of this site is subject to express terms of use, which prohibit commercial use of this site. By continuing past this page, you agree to abide by there terms.</footer>      
+             <footer>LinkedIn Corporation &copy; 2008 | <a href="">User Agreement</a> | <a href="">Privacy Policy</a> | <a href="">Copyright Policy</a> </footer>
+             <footer>Use of this site is subject to express <a href="">terms of use</a>, which prohibit commercial use of this site. By continuing past this page, you agree to abide by there terms.</footer>      
                  
              </div>   
    </div>
-  
    
  
 </div>
