@@ -108,15 +108,18 @@
             <hr>
             </div>
      
-             <div class="horizontal">
+              <div class="horizontal">
                   <div>   
                  <p class="graytext">Company<br>Tools<br>Products</p>
                  </div>  
                  <div>  
                  <p class="bluetext">Customer service | About LinkedIn | Team | Blog | Store | Advertise with Us | Work with Us<br>Overview | Outlook Toolbar | Browser Toolbar | JobsInsider | Widgets<br>LinkedIn | Answers LinkedIn Jobs | LinkedIn Updates</p>
                  </div>  
-             </div>   
-   </div>
+             </div>
+  
+
+    </div>
+
   
   <div class="grid3B">
              <div class="footertext">
