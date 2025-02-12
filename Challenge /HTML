@@ -32,9 +32,12 @@
              </div>
 
              </div>  
-    
      
-             <hr>
+            <div class="hr-line-1">
+            <hr>
+            </div> 
+
+       
      
    </div>
   
@@ -76,13 +79,28 @@
               
                   <p>Already on LinkedIn? <a href="">Sign In</a></p>
                
-            </div> 
+            </div>
+     
+     <hr>
+     
    </div>
    <div class="grid grid2C">
             <div> 
-               
+              
+              <div> 
+              <h3> Search for someone by name:<input type="text" placeholder="First Name"><input type="text" placeholder="Last Name"><button>Go</button> </h3>
+              </div> 
+              
+              <div>
+              <p> Poeple directory: <a href="">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z more</a></p>
+              </div>
+              
             </div> 
    </div>
+  
+            <div class="hr-line-2">
+            <hr>
+            </div>
   
            
    <div class="grid grid3">
