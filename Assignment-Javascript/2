@@ -44,7 +44,7 @@ for (let i = 1; i <= 20; i++) {
 
   <div class="p-3 mb-2 bg-black text-white">
     <header >
-        <h1 class="border border-dark text-warning bg-dark">beginner cat website</h1>
+        <h1 class="border border-dark text-warning bg-dark">My Form</h1>
         <nav class="p-3 mb-2 bg-info-subtle text-info-emphasis">
             <ul >
                 <li><a href="#section1">Section 1</a></li>
@@ -80,7 +80,7 @@ for (let i = 1; i <= 20; i++) {
               <ul >
               <li>item 1</li>
               <li>item 2</li>
-              <li>item 3</li>
+              <h1>hello</h1>
               </ul>
         </section>
         <section  id="section3">
