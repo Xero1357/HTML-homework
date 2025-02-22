@@ -1,33 +1,61 @@
+const screen = document.querySelector('.screen');
+const buttons = document.querySelectorAll('.calculator2 button');
 
+let currentInput = '';
+let operator = '';
+let firstOperand = null;
 
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    const value = button.value;
 
-function main() {
-    let num1 = parseFloat(prompt('Enter the 1st number:'));
-    let operator = prompt('Enter an operator (+ - * /):');
-    let num2 = parseFloat(prompt('Enter the 2nd number:'));
+    if (value === 'AC') {
+      currentInput = '';
+      operator = '';
+      firstOperand = null;
+      screen.value = '';
+    } else if (value === '=') {
+      if (firstOperand !== null && operator) {
+        const secondOperand = parseFloat(currentInput);
+        let result;
 
-    let result;
+        switch (operator) {
+          case '+':
+            result = firstOperand + secondOperand;
+            break;
+          case '-':
+            result = firstOperand - secondOperand;
+            break;
+          case '*':
+            result = firstOperand * secondOperand;
+            break;
+          case '/':
+            result = firstOperand / secondOperand;
+            break;
+          default:
+            return;
+        }
 
-    if (operator === '+') {
-        result = num1 + num2;
-        console.log(result.toFixed(3));
-    } else if (operator === '-') {
-        result = num1 - num2;
-        console.log(result.toFixed(3));
-    } else if (operator === '*') {
-        result = num1 * num2;
-        console.log(result.toFixed(3));
-    } else if (operator === '/') {
-        result = num1 / num2;
-        console.log(result.toFixed(3));
+        screen.value = result;
+        currentInput = '';
+        operator = '';
+        firstOperand = null;
+      }
+    } else if (['+', '-', '*', '/'].includes(value)) {
+      if (currentInput) {
+        firstOperand = parseFloat(currentInput);
+      }
+      operator = value;
+      currentInput = '';
     } else {
-        console.log(`${operator} is not a valid operator`);
+      if (value === '.') {
+        if (!currentInput.includes('.')) {
+          currentInput += value;
+        }
+      } else {
+        currentInput += value;
+      }
+      screen.value = currentInput; 
     }
-    
-
-    if (confirm('Do you want to perform another calculation?')) {
-        main();
-    }
-}
-
-main();
+  });
+});
