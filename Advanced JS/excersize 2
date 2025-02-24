@@ -1,1 +1,39 @@
 
+//1
+var A = [5, 3, 8, 1];
+var B = [];
+
+for (let i = 0; i < A.length; i++) {
+    if (A[i] >= 1 && A[i] <= 4) {
+        B.push(A[i]);
+    }
+}
+
+console.log(B);
+
+//2
+let data = [
+  { name: "John", age: 25 },
+  { name: "Pete", age: 30 },
+  { name: "Mary", age: 28 }
+];
+
+var names = data.map(x => x.name);
+console.log(names); 
+
+var ages = data.map(x=> x.age);
+console.log(ages); 
+
+//3
+
+var ages = [25, 30, 28]
+var A = ages;
+let total = 0;
+
+for (let i = 0; i < A.length; i++) {
+  total += A[i];
+}
+
+var B = total / A.length;
+console.log(B)
+
