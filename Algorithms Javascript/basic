@@ -68,3 +68,181 @@ for (let i = 0; i < LIST.length; i++) {
 }
 
 console.log(LIST);
+
+tuesday 
+
+// 1
+for (let i = 1; i <= 135; i++) {
+  console.log(i);
+}
+
+// 2
+for (let i = 1; i <= 135; i++){
+  if (i % 2 !== 0) {
+      console.log(i)
+  }
+}
+// 3
+var sum = 0; 
+
+for (let i = 1; i <= 135; i++) {
+  sum += i; 
+  console.log(i, sum); 
+}
+// 4
+var list = [1, 4, 2, 12];
+
+for (let i = 0; i < list.length; i++) {
+  console.log(list[i]);
+}
+// 5
+var x = [2, 12, -3, 0];
+let max = x[0]; 
+
+for (let i = 1; i < x.length; i++) {
+    if (x[i] > max) {
+        max = x[i]; 
+    }
+}
+console.log(max); 
+// 6
+
+var A = [2, 12, -3, 0];
+let total = 0;
+
+for (let i = 0; i < A.length; i++) {
+  total += A[i];
+}
+
+var B = total / A.length;
+
+console.log(B);  
+// 7
+
+var X = [2, 12, -3, 0];
+
+for (let i = 0; i < X.length; i++) {
+    if (X[i] < 0) {
+        X[i] = 0;
+    }
+}
+
+console.log(X);
+// 8
+
+var LIST = [1,-4,0,-1];
+
+for (let i = 0; i < LIST.length; i++) {
+    if (LIST[i] < 0) {
+      LIST[i] = "string";
+    }
+}
+
+console.log(LIST);
+
+// // //
+
+var A = [[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]; 
+let maxValues = [];
+
+for (let i = 0; i < A.length; i++) {
+    let max = A[i][0]; 
+    
+    for (let j = 1; j < A[i].length; j++) {
+        if (A[i][j] > max) {
+            max = A[i][j]; 
+        }
+    }
+    
+    maxValues.push(max); 
+}
+
+console.log(maxValues);
+
+//  // //
+var A = 100;
+
+while (A > 1) {
+    let B; 
+
+    if (A % 3 === 0) {
+        B = A / 3;
+    } else if ((A + 1) % 3 === 0) {
+        B = (A + 1) / 3;
+    } else if ((A - 1) % 3 === 0) {
+        B = (A - 1) / 3;
+    }
+
+    A = B; 
+    console.log(B)
+}
+// // 
+
+var num = prompt("What number do you want to find the factorial of?");
+
+num = Number(num);
+
+var factorial = function(n) {
+    if (n < 0) {
+        return "Factorial is not defined for negative numbers.";
+    } else if (n === 0) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+};
+
+console.log(factorial(num));
+
+//
+var A = [3, 1, 4];
+A.sort((x, x1) => x - x1); 
+console.log(A); 
+
+// tuesday
+
+//1
+let output = []; 
+for (let i = 200; i <= 2700; i++) {
+  if ((i % 3 === 0 || i % 5 === 0) && !(i % 3 === 0 && i % 5 === 0)) {
+    output.push(i); 
+  }
+}
+
+console.log(output);
+
+//2
+
+var shiftedlist = []
+var list = [2,1,6,4,-7]
+
+for( let i=0 ; i<list.length ; i++ ){
+  shiftedlist.unshift(list[i])
+}
+console.log(shiftedlist)
+
+//3
+var list = []
+for (let i = 1; i <= 135; i++) {
+  list.push(i);
+}
+console.log(list);
+
+var list = [];
+for (let i = 1; i <= 135; i++) {
+  if (i % 3 === 0 && i%5==0) {
+    list.push("fizzbuzz"); }
+  else if (i % 3 === 0) {
+    list.push("fizz"); }
+  else if (i % 5 === 0) {
+      list.push("buzz"); } 
+  else {
+    list.push(i); }
+  
+}
+console.log(list);
+//4
+
+
+
+
