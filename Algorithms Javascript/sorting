@@ -1,3 +1,21 @@
+//monday bubble sort
 var A = [7,5,2,4,3,9];
 A.sort((x, x1) => x - x1); 
 console.log(A); 
+//tuesday selection sort
+var list = [29, 72, 98, 13, 87, 66, 52, 51, 36];
+
+for (let i = 0; i < list.length; i++) {
+    let minIndex = i; 
+    for (let j = i + 1; j < list.length; j++) {
+        if (list[j] < list[minIndex]) {
+            minIndex = j; 
+        }
+    }
+
+    if (minIndex !== i) {
+        [list[i], list[minIndex]] = [list[minIndex], list[i]];
+    }
+}
+
+console.log(list);
