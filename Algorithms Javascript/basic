@@ -59,146 +59,6 @@ for (let i = 0; i < X.length; i++) {
 console.log(X);
 // 8
 
-var LIST = [1,-4,0,-1];
-
-for (let i = 0; i < LIST.length; i++) {
-    if (LIST[i] < 0) {
-      LIST[i] = "string";
-    }
-}
-
-console.log(LIST);
-
-tuesday 
-
-// 1
-for (let i = 1; i <= 135; i++) {
-  console.log(i);
-}
-
-// 2
-for (let i = 1; i <= 135; i++){
-  if (i % 2 !== 0) {
-      console.log(i)
-  }
-}
-// 3
-var sum = 0; 
-
-for (let i = 1; i <= 135; i++) {
-  sum += i; 
-  console.log(i, sum); 
-}
-// 4
-var list = [1, 4, 2, 12];
-
-for (let i = 0; i < list.length; i++) {
-  console.log(list[i]);
-}
-// 5
-var x = [2, 12, -3, 0];
-let max = x[0]; 
-
-for (let i = 1; i < x.length; i++) {
-    if (x[i] > max) {
-        max = x[i]; 
-    }
-}
-console.log(max); 
-// 6
-
-var A = [2, 12, -3, 0];
-let total = 0;
-
-for (let i = 0; i < A.length; i++) {
-  total += A[i];
-}
-
-var B = total / A.length;
-
-console.log(B);  
-// 7
-
-var X = [2, 12, -3, 0];
-
-for (let i = 0; i < X.length; i++) {
-    if (X[i] < 0) {
-        X[i] = 0;
-    }
-}
-
-console.log(X);
-// 8
-
-var LIST = [1,-4,0,-1];
-
-for (let i = 0; i < LIST.length; i++) {
-    if (LIST[i] < 0) {
-      LIST[i] = "string";
-    }
-}
-
-console.log(LIST);
-
-// // //
-
-var A = [[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]; 
-let maxValues = [];
-
-for (let i = 0; i < A.length; i++) {
-    let max = A[i][0]; 
-    
-    for (let j = 1; j < A[i].length; j++) {
-        if (A[i][j] > max) {
-            max = A[i][j]; 
-        }
-    }
-    
-    maxValues.push(max); 
-}
-
-console.log(maxValues);
-
-//  // //
-var A = 100;
-
-while (A > 1) {
-    let B; 
-
-    if (A % 3 === 0) {
-        B = A / 3;
-    } else if ((A + 1) % 3 === 0) {
-        B = (A + 1) / 3;
-    } else if ((A - 1) % 3 === 0) {
-        B = (A - 1) / 3;
-    }
-
-    A = B; 
-    console.log(B)
-}
-// // 
-
-var num = prompt("What number do you want to find the factorial of?");
-
-num = Number(num);
-
-var factorial = function(n) {
-    if (n < 0) {
-        return "Factorial is not defined for negative numbers.";
-    } else if (n === 0) {
-        return 1;
-    } else {
-        return n * factorial(n - 1);
-    }
-};
-
-console.log(factorial(num));
-
-//
-var A = [3, 1, 4];
-A.sort((x, x1) => x - x1); 
-console.log(A); 
-
 // tuesday
 
 //1
@@ -242,6 +102,41 @@ for (let i = 1; i <= 135; i++) {
 }
 console.log(list);
 //4
+
+var list = [];
+for (let i=0; i<10; i++)
+  {
+    if (i==0 || i==1)
+    {list[i]=i}
+    else
+    {list[i]=list[i-1]+list[i-2]}
+
+  }
+  console.log(list)
+//5
+var list =  [1,-2,4,1];
+for (let i=0; i<list.length; i++)
+  {
+    if (list[i]<0)
+    {
+    list.splice(i,1)
+    i = i-1
+    }
+  }
+console.log(list)
+//6
+var list = ['Man', 'I','Love','The','Matrix','Program']
+var word = 'Program'
+var star = ''
+for (let i=0 ; i<word.length ; i++){
+  star+='*'
+}
+for (let i=0; i<list.length ;i++){
+  if(word==list[i]){
+    list[i]=star
+  }
+}
+console.log(list)
 
 
 
