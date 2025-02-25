@@ -34,6 +34,29 @@ ask(
   () => { alert("You canceled the execution.") }
 )
 //4
+let calculator = {
+  value1: 0,
+  value2: 0,
+
+  read() {
+    this.value1 = parseFloat(prompt("Enter first number:", 0));
+    this.value2 = parseFloat(prompt("Enter second number:", 0));
+  },
+
+  sum() {
+    return this.value1 + this.value2;
+  },
+
+  mul() {
+    return this.value1 * this.value2;
+  }
+};
+
+calculator.read();
+alert("Sum: " + calculator.sum());
+alert("Multiplication: " + calculator.mul());
+
+//5
 
 
 let a = [5, 20, -3];
