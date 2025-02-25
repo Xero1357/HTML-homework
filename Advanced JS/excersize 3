@@ -1,3 +1,8 @@
+// 1
+
+const checkAge = age => age > 18 || confirm('Do you have your parents permission to access this page?');
+
+// 2
 
 function pow(base, exponent) {
   let result = 1;
@@ -16,3 +21,28 @@ for (let i = 0; i < x.length; i++) {
 }
 
 console.log(results);
+
+//3
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no()
+}
+
+ask(
+  "Do you agree?",
+  () => { alert("You agreed.") },
+  () => { alert("You canceled the execution.") }
+)
+//4
+
+
+let a = [5, 20, -3];
+let b = [10, 15, -7];
+
+let list = [];
+
+for (let i = 0; i < a.length; i++) {
+    list[i] = a[i] < b[i] ? a[i] : b[i]; 
+}
+
+console.log(list); 
