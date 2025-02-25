@@ -1,1 +1,10 @@
 
+var start = document.querySelector("#button1");
+var reset = document.querySelector("#button2");
+var pauze = document.querySelector("#button3");
+
+var timer1min = document.querySelector("#timer1min");
+var timer1sec = document.querySelector("#timer1sec");
+var timer2min = document.querySelector("#timer2min");
+var timer2sec = document.querySelector("#timer2sec");
+var counter = document.querySelector("#counter");
