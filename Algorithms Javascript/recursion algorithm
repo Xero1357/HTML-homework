@@ -1,3 +1,19 @@
+// tuesday
+
+var bunnies = 4;
+
+function BunnyEars(bunnies) {
+  var totalEars = 0; 
+  
+  for (var i = 0; i < bunnies; i++) {
+    totalEars += 2; 
+  }
+  
+  return totalEars; 
+}
+
+console.log(BunnyEars(bunnies)); 
+
 // wednessday
 
 var x = [3, 2]
