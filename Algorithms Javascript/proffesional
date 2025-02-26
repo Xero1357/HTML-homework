@@ -28,3 +28,22 @@ if(diag1 ==diag2){
 }else{
   console.log(false)
 }
+// wednessday
+
+
+let st = "A quick brown fox jumped over the lazy dog"
+st.toLowerCase
+function SearchandReplace (string , before, after) {
+  var arr = string.trim().split('')
+  for (let i=0 ; i<arr.length ; i++){
+    if(arr[i]==before){
+      if (arr[i][0]==arr[i][0].toUpperCase()){
+        arr[i]=after[0].toUpperCase()+after.slice(1)
+      }else{
+        arr[i] = after
+      }
+    }
+  }
+  return arr.join('')
+}
+console.log(SearchandReplace(st, 'Brown', 'yellow'))
