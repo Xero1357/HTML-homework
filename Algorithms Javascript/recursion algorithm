@@ -1,0 +1,13 @@
+// wednessday
+
+var x = [3, 2]
+
+function PowerN(base,exponent){
+  let result = 1
+  for(let i=0 ; i < exponent ; i++){
+    result *= base
+
+  }
+  return result;
+}
+console.log(PowerN(x[0],x[1]))
