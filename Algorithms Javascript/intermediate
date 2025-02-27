@@ -42,6 +42,17 @@ function Titlecase (st){
   for(let i = 0 ; i<words.length ; i++){ 
     words[i]=words[i][0].toUperCase() + words[i].slice(1)
   }
+
+// thursday
+function generatesum(arr){
+  let sum = 0 
+  for ( let i = Math.min(...arr) ; i<=Math.max(...arr) ; i++ ){
+    sum+=i
+  }
+  return sum
+}
+let array = [10,5]
+console.log(generatesum(array))
   return words.join('')
 }
 console.log(Titlecase(sentence));
