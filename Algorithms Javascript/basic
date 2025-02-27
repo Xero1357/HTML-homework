@@ -165,5 +165,27 @@ function palindrome(word) {
 console.log(palindrome("racecar")); 
 console.log(palindrome("hello")); 
 
+// friday
+
+
+var array = [2, 1, 5, 1, 9];
+let first = 0
+let second = 0
+let third = 0
+for (let i=0 ; i<array.length ;i++) {
+  if (first<array[i]){
+    third = second
+    second = first
+    first = array[i]
+  } else if (second<array[i]){
+    third = second
+    second = array[i]
+  } else if (third<array[i]){
+    third = array[i]
+  }
+}
+
+console.log(third)
+
 
 
