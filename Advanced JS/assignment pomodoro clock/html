@@ -1,1 +1,38 @@
 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+ <link rel="stylesheet" type="text/css" href="style.css"> 
+<script src="script.js"></script>
+  
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="container">
+    
+    <div class="grid1">
+      <h3>Work:</h3>  
+      <h3>Cycles:</h3> 
+      <h3>Break:</h3> 
+    </div>
+    
+    <div class="grid2">
+      <h3 id="wm">0</h3><h3>:</h3><h3 id="ws">10</h3>
+      <h3 id="counter">0</h3>
+      <h3 id="bm">0</h3><h3>:</h3><h3 id="bs">5</h3>
+    </div>
+    
+    <div class="grid3">
+      <button id="button1">Start</button>
+      <button id="button2">Reset</button>
+      <button id="button3">Pauze</button>
+    </div>
+    
+  </div>
+  
+</body>
+</html>
