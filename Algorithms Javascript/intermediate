@@ -56,3 +56,17 @@ console.log(generatesum(array))
   return words.join('')
 }
 console.log(Titlecase(sentence));
+
+// friday
+function fib(n){
+  let seq = 1
+  let seq1 = 0
+  let seq2 = 0
+  for (let i = 2 ; i <= n ; i++){
+    seq2=seq1
+    seq1=seq
+    seq=seq1+seq2
+    }
+    return seq
+  }
+console.log(fib(4))
