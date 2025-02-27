@@ -150,6 +150,20 @@ function factorialize (num){
 
 console.log(factorialize(5))
 
+// thursday 
+
+function palindrome(word) {
+  let reversed = '';
+  
+  for (let i = word.length - 1; i >= 0; i--) {
+    reversed += word[i];
+  }
+  
+  return word === reversed;
+}
+
+console.log(palindrome("racecar")); 
+console.log(palindrome("hello")); 
 
 
 
