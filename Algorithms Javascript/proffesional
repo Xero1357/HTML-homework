@@ -61,4 +61,4 @@ function generateFibonacci(n) {
   return { fibList: list.slice(0, n), oddList };
 }
 
-console.log(generateFibonacci(7<n)); 
+console.log(generateFibonacci(7)); 
