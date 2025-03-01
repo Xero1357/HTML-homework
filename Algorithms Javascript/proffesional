@@ -53,7 +53,7 @@ console.log(SearchandReplace(st, 'Brown', 'yellow'))
 //friday
 function generateFibonacci(n) {
   let list = [0, 1];
-  let oddList = []; // Initialize the second list for odd numbers
+  let oddList = []; 
   for (let i = 2; i < n; i++) {
     list[list.length] = list[i - 1] + list[i - 2];
     if (list[i] % 2 !== 0) oddList.push(list[i]); 
