@@ -1,19 +1,30 @@
-//1
-class person {
-  constructor(name, age){
-    this.name = name;
-    this.age = age;
+// OOP assignment put it all together
+  //1
+  class person {
+    constructor(name, age){
+      this.name = name;
+      this.age = age;
+    }
+  
+    introduce() {
+      return `Hi, my name is ${this.name} and I am ${this.age} years old.`;
+    }
   }
-
-  introduce() {
-    return `Hi, my name is ${this.name} and I am ${this.age} years old.`;
-  }
-}
-
-const person1 = new person("John", 25);
-console.log(person1.introduce()); 
-
-const person2 = new person("Alice", 30);
-console.log(person2.introduce()); 
-
-//2
+    //2
+  const person1 = new person("John", 25);
+  console.log(person1.introduce()); 
+  
+  const person2 = new person("Alice", 30);
+  console.log(person2.introduce()); 
+    //3
+    function wait(milliseconds) {
+      return new Promise(function(resolve) {
+          setTimeout(function() {
+              resolve("Waited for " + milliseconds + " milliseconds"); 
+          }, milliseconds);
+      });
+    }
+    
+    wait(1500).then(function(result) {
+      console.log(result); 
+    });
