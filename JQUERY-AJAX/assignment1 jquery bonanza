@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+<script>
+    $(document).ready(function() {
+        $("#button1").click(function() {
+            $(this).fadeOut(100, function() {
+                $(this).delay(100).fadeIn(1000);
+            });
+        });
+    });
+    $(document).ready(function() {
+        $('#button2').click(function() {
+            $('#snakeimg').show();
+        });
+    });
+  $(document).ready(function() {
+  $('#button3').click(function() {
+      $(this).css('background-color', 'purple');
+      $(this).css('color', 'white'); 
+  });
+});
+</script>
+  
+</head>
+<body>
+<div class='container'>
+  <div class='container1 '>
+  </div>
+  <div class='container2 center'>
+    <button id='button1' class=".centerelements">Dissapear!</button>
+  </div>
+  <div class='container3 center'>
+    <button id='button2' class=".centerelements">snake!</button>
+  <img id="snakeimg" src="https://imgur.com/UpFBmTP.jpg">    
+  </div>
+  <div class='container4 center'>
+    <button id='button3' class=".centerelements">Purple!</button>
+  </div>
+
+</div>  
+</body>
+</html>
+
+/* css  */
+
+.container{
+background-color: grey;
+height: 800px;
+width: 800px;
+  
+display: grid;
+grid-template-rows: repeat(8, 100px);
+grid-template-columns: repeat(8, 100px); 
+}
+.container1{
+background-color: grey;
+grid-row: 1/3;
+grid-column: 1/9;  
+gap: 1em;
+}
+.container2{
+background-color: silver;
+grid-row: 3/5;
+grid-column: 1/9;  
+gap: 1em;
+}
+.container3{
+background-color: silver;
+grid-row: 5/7;
+grid-column: 1/9;  
+gap: 1em;
+}
+.container4{
+background-color: silver;
+grid-row: 7/9;
+grid-column: 1/9;  
+gap: 1em;
+margin-bottom: 5%;
+}
+
+.center{
+ display: flex;
+  justify-content:  center;
+    align-items: center;
+}
+
+#snakeimg {
+display:none; 
+}
+
