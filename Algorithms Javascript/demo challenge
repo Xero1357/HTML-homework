@@ -1,14 +1,13 @@
-//1
 arr = [2, 12, -3, 0, 5, -6];
 var NewArr = [];
 
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] >= 0) {
-        NewArr[NewArr.length] = arr[i];
+        NewArr[NewArr.length] = arr[i]; //NewArr.push(arr[i]); 
     }
 }
 console.log(NewArr);
-//2
+
 var list = [2, 1, 6, 4, -7];
 var shiftedlist = [];
 
