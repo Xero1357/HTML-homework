@@ -1,0 +1,36 @@
+.container{
+  width: 45em;
+  height: 10em;
+  background-color: lightgrey;
+  display:flex;
+  align-items: center;
+}
+.box{
+  display:flex;
+  flex-direction: row; 
+  align-items: center;
+  margin-left: 5%;
+}
+
+.timer {
+font-size: 80px;
+}
+
+.timerbutton{
+  border-radius: 100%;
+}
+
+.button1 {
+  color: grey;
+}
+
+.button2 {
+  background-color: #ADD8E6;
+  color: white;
+}
+
+button{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
