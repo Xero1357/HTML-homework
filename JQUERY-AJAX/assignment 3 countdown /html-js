@@ -1,0 +1,88 @@
+
+<div class='container'>
+  <div class='box'>
+    <div class='timer box'>
+      <p>00</p>:<p class="minutes">25</p>:<p class="second">00</p>
+    </div>
+    
+    <div class='timerbutton box'>
+      <button class='button1'>start</button>
+      <button class='button2'>reset</button>
+    </div>
+  </div>
+</div>
+
+<audio id="alarm-sound" src="alarm.mp3" preload="auto"></audio>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  let hours = 0;
+  let minutes = 25;
+  let seconds = 0;
+  let clock;
+
+  function playBeep() {
+    const audio = $("#alarm-sound")[0];
+    audio.play().catch((error) => {
+      console.error("Audio play error:", error);
+      alert("Audio cannot be played. Please check your browser settings.");
+    });
+  }
+
+  $('.button1').on('click', function() {
+    hours = parseInt(prompt("Enter hours:", "0")) || 0;
+    minutes = parseInt(prompt("Enter minutes:", "25")) || 25; 
+    seconds = parseInt(prompt("Enter seconds:", "0")) || 0;
+
+    if (hours < 0 || minutes < 0 || seconds < 0 || minutes > 59 || seconds > 59) {
+      alert("Invalid value! Please enter valid time.");
+      return;
+    }
+
+    if (hours === 0 && minutes === 0 && seconds === 0) {
+      return;
+    }
+
+    $(this).attr("disabled", "disabled");
+    $('.button2').removeAttr("disabled");
+
+    clock = setInterval(() => {
+      if (seconds === 0 && minutes === 0 && hours === 0) {
+        clearInterval(clock);
+        $('.button1').removeAttr("disabled");
+        playBeep();
+        return;
+      }
+
+      if (seconds === 0) {
+        if (minutes === 0) {
+          if (hours > 0) {
+            hours--;
+            minutes = 59;
+          }
+        } else {
+          minutes--;
+        }
+        seconds = 59;
+      } else {
+        seconds--;
+      }
+
+      // Update display
+      $('.timer p:nth-child(1)').text(hours < 10 ? '0' + hours : hours);
+      $('.minutes').text(minutes < 10 ? '0' + minutes : minutes);
+      $('.second').text(seconds < 10 ? '0' + seconds : seconds);
+    }, 1000);
+  });
+
+  $('.button2').on('click', function() {
+    clearInterval(clock);
+    $('.timer p:nth-child(1)').text("00"); 
+    $('.minutes').text("25"); 
+    $('.second').text("00"); 
+    $('.button1').removeAttr("disabled");
+    $(this).attr("disabled", "disabled");
+  });
+});
+</script>
