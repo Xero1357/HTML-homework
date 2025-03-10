@@ -1,31 +1,68 @@
-const start = document.querySelector("#button1");
-const reset = document.querySelector("#button2");
-const AdjustTimer = document.querySelector("#button3");
+let hours = 0;
+let minutes = 25; 
+let seconds = 0;
+let clock;
 
-const minutes = document.querySelector("minutess");
+function playBeep() {
+  const audio = document.getElementById("alarm-sound");
+  audio.play().catch((error) => {
+    console.error("Audio play error:", error);
+    alert("Audio cannot be played. Please check your browser settings.");
+  });
+}
 
-// start.addEventListener('click', function(){
-  
-// }
-             
-let timer;
-let time = 0;
+document.querySelector('.button1').addEventListener('click', function () {
 
-$("#button1").click(function() {
-    clearInterval(timer);
-    timer = setInterval(function() {
-        time++;
-        $("#minutess").text(Math.floor(time / 60) + ":" + (time % 60).toString().padStart(2, '0'));
-    }, 1000);
+  hours = parseInt(prompt("Enter hours:", "0")) || 0;
+  minutes = parseInt(prompt("Enter minutes:", "25")) || 25; 
+  seconds = parseInt(prompt("Enter seconds:", "0")) || 0;
+
+  if (hours < 0 || minutes < 0 || seconds < 0 || minutes > 59 || seconds > 59) {
+    alert("Invalid value! Please enter valid time.");
+    return;
+  }
+
+  if (hours === 0 && minutes === 0 && seconds === 0) {
+    return;
+  }
+
+  this.setAttribute("disabled", "disabled");
+  document.querySelector('.button2').removeAttribute("disabled");
+
+  clock = setInterval(() => {
+    if (seconds === 0 && minutes === 0 && hours === 0) {
+      clearInterval(clock);
+      document.querySelector('.button1').removeAttribute("disabled");
+      playBeep();
+      return;
+    }
+
+    if (seconds === 0) {
+      if (minutes === 0) {
+        if (hours > 0) {
+          hours--;
+          minutes = 59;
+        }
+      } else {
+        minutes--;
+      }
+      seconds = 59;
+    } else {
+      seconds--;
+    }
+
+    // Update display
+    document.querySelector('.timer p:nth-child(1)').textContent = hours < 10 ? '0' + hours : hours;
+    document.querySelector('.minutes').textContent = minutes < 10 ? '0' + minutes : minutes;
+    document.querySelector('.second').textContent = seconds < 10 ? '0' + seconds : seconds;
+  }, 1000);
 });
 
-$("#button2").click(function() {
-    clearInterval(timer);
-    time = 0;
-    $("#minutess").text("0:00");
+document.querySelector('.button2').addEventListener('click', function () {
+  clearInterval(clock);
+  document.querySelector('.timer p:nth-child(1)').textContent = "00"; 
+  document.querySelector('.minutes').textContent = "25"; 
+  document.querySelector('.second').textContent = "00"; 
+  document.querySelector('.button1').removeAttribute("disabled");
+  this.setAttribute("disabled", "disabled");
 });
-
-$("#button3").click(function() {
-    clearInterval(timer);
-});
-                       
