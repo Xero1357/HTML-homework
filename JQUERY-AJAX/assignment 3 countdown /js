@@ -51,7 +51,6 @@ document.querySelector('.button1').addEventListener('click', function () {
       seconds--;
     }
 
-    // Update display
     document.querySelector('.timer p:nth-child(1)').textContent = hours < 10 ? '0' + hours : hours;
     document.querySelector('.minutes').textContent = minutes < 10 ? '0' + minutes : minutes;
     document.querySelector('.second').textContent = seconds < 10 ? '0' + seconds : seconds;
