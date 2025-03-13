@@ -1,0 +1,40 @@
+const ApiKey = 'AIzaSyDvdfiTJiw-jLwL-F6G7LXRTbR8ZnkTbpY'; 
+const BASE_URL = 'https://tenor.googleapis.com/v2/search';
+let userRequest = '';
+  
+  function httpGetAsync(theUrl, callback) {
+    var xmlHttp = new XMLHttpRequest();
+  
+    xmlHttp.onload = function() {
+      if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
+        callback(xmlHttp.responseText);
+      }
+    };
+  
+    xmlHttp.open('GET', theUrl, true);
+    xmlHttp.send(null);
+  }
+  
+  function saveUserSearch() {
+    $('#searchBtn').click(function(e) {
+      e.preventDefault();
+      userRequest = $('#search').val().trim();
+      if (userRequest) {
+        var url = `${BASE_URL}?q=${userRequest}&key=${API_KEY}&limit=${LIMIT}`;
+        httpGetAsync(url, callback_search);
+      }
+    });
+  }
+  function callback_search(responsetext) {
+    var response_objects = JSON.parse(responsetext);
+    var searched_10_gifs = response_objects['results'];
+    $('#gallery').empty();
+  
+    $.each(searched_10_gifs, function(index, gif) {
+      var gifUrl = gif.media_formats.tinygif.url;
+      var imgElement = '<img src="' + gifUrl + '" class="m-2" alt="GIF">';
+      $('#gallery').append(imgElement);
+    });
+  }
+  
+  saveUserSearch();
