@@ -11,17 +11,21 @@ body {
 
 
 input {
-  width: 700px;
+  width: 300px;
   padding: 8px;
   border: 1px solid rgb(189, 185, 185);
   border-radius: 5px;
 }
 
+.searchbar {
+    display: flex;
+   align-items: stretch; 
+    height: 30px;
+   }
 
 button {
   padding: 8px;
-  width: 5%;
-  background-color: rgb(255, 255, 255);
+  background-color: skyblue;
   border: 1px solid rgb(189, 185, 185);
   border-radius: 5px;
 }
@@ -39,5 +43,7 @@ img {
 ul {
   gap: 1rem;
   display: grid;
-  grid-template-columns:repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+  grid-template-columns: repeat(3, auto);
+  /* grid-template-columns:repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+  
 }
