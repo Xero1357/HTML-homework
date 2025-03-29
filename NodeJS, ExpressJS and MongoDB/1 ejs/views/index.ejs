@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+<div class='gridcontainer'>
+    <div class='gridbox1'>
+        <h3 class='title'>Timeline</h3>
+        <hr>
+        <div class='form'>
+            <h3>Post a message</h3>
+            <input type="text" id="message-input" placeholder="Your message here...">
+            <div class='rightside'>
+                <button id="post-button">Post a message</button>
+            </div>
+        </div>
+    </div>
+
+    <div class='gridbox2'>
+        <div class='form' id="messages-container">
+            <% posts.forEach(post => { %>
+                <div class='message-card'>
+                    <p><%= post.name %></p>
+                    <p><%= post.createdAt || new Date().toLocaleDateString() %></p>
+                    <p><%= post.message %></p>
+                </div>
+            <% }) %>
+        </div> 
+    </div>
+</div>
+
+<script src="script.js"></script> 
+
+</body>
+</html>
