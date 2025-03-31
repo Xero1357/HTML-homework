@@ -5,13 +5,11 @@ const postsRouter = require('./router');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
-app.use(express.static('public')); // Serve static files from 'public' folder
+app.use(express.static('public')); 
 app.use(express.json());
-app.set('view engine', 'ejs'); // Use EJS as the template engine
-app.set('views', path.join(__dirname, 'views')); // Set the views directory
+app.set('view engine', 'ejs'); 
+app.set('views', path.join(__dirname, 'views')); 
 
-// Load initial posts from data.json
 const fs = require('fs').promises;
 const dataFilePath = path.join(__dirname, 'data.json');
 
@@ -25,7 +23,6 @@ async function loadPosts() {
     }
 }
 
-// Route to render the index.ejs page and pass in posts
 app.get('/', async (req, res) => {
     const posts = await loadPosts(); // Load posts from file
     res.render('index', { posts });   // Pass posts to the EJS template
