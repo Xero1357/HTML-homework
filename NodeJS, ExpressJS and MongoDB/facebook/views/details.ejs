@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Details</title>
+</head>
+<body>
+    <h2>Post Details</h2>
+    <h3><%= article.title %></h3>
+    <p><%= article.message %></p>
+    <p>Date: <%= article.date.toDateString() %></p>
+    
+    <form action="/article/delete/<%= article._id %>" method="POST">
+        <button type="submit">Delete</button>
+    </form>
+    <button onclick="location.href='/article/edit/<%= article._id %>'">Edit Post</button>
+
+    <br><br>
+    <button onclick="location.href='/'">Back</button>
+</body>
+</html>

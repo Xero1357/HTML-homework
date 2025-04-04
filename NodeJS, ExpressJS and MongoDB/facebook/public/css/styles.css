@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.bar1, .bar2 {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}

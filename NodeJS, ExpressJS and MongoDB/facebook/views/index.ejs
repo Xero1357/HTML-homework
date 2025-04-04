@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add a Post</h2>
+        <form action="/article" method="POST">
+            <input class="bar1" name="title" placeholder="Name Title" type="text" required/>
+            <br><br>
+            <input class="bar2" name="message" placeholder="Message" type="text" required/>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <% articles.forEach(article => { %>
+            <article>
+                <h3><%= article.title %></h3>
+                <p><%= article.message.substring(0, 50) %></p>
+                <p>Date: <%= article.date.getMonth() + 1 %>/<%= article.date.getDate() %>/<%= article.date.getFullYear() %></p>
+                <a href="/article/<%= article._id %>">See More</a>
+            </article>
+        <% }) %>
+    </div>
+</body>
+</html>
